@@ -45,10 +45,6 @@ nav {
     color: $textgray;
 }
 
-p {
-    line-height: 2rem;
-}
-
 @media only screen and (max-width : 600px) {
     #index-banner .section {
         top: 0;
@@ -108,19 +104,19 @@ pre {
     }
 }
 
+html {
+    font-size: 90%;
+}
+
 body {
     background: #ffffff url($baseurl + "/course-common/assets/img/pale_grey_slight_texture.jpg") top left repeat;
     color: $textgray;
-    line-height:1.6;
-    font-size:18px;
+    line-height: 1.6;
 }
 
 .bread {
     padding-top: 48px;
     margin: 48px;
-    p {
-        text-align:justify;
-    }
     ul {
         list-style-position: inside;
         margin-left:10px;
