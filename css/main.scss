@@ -7,9 +7,9 @@
 $elixirorange: #F47D20;
 $scilifegreen: #85BE42;
 $textgray: #444;
+$baseurl: "{{site.baseurl}}";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "nbis";
 @import "ena";
-
 ;

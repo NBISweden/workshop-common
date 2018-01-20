@@ -127,7 +127,7 @@ nav.main .scilifelogo {
 }
 
 body {
-    background: #ffffff url(/course-common/assets/img/pale_grey_slight_texture.jpg) top left repeat;
+    background: #ffffff url($baseurl + "/course-common/assets/img/pale_grey_slight_texture.jpg") top left repeat;
     color: $textgray;
     line-height:1.6;
     font-size:18px;
