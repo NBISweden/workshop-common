@@ -25,6 +25,12 @@ nav {
     }
 }
 
+.content {
+    background-color: white;
+    padding-bottom: 64px;
+    margin-bottom: 64px;
+}
+
 .dropdown-content li > a, .dropdown-content li > span {
     color: $textgray;
 }
