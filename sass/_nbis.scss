@@ -104,6 +104,19 @@ pre {
     }
 }
 
+table {
+    line-height: 1.0rem;
+}
+
+table.border {
+    thead {
+        border-bottom: none;
+    }
+    tbody {
+        border: 1px solid black;
+    }
+}
+
 html {
     font-size: 90%;
 }
