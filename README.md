@@ -1,2 +1,2 @@
-# course-common
-Common configuration of githubpages for courses
+# workshop-common
+Common configuration of githubpages for workshops
