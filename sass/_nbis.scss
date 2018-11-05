@@ -41,6 +41,12 @@ nav {
     color: $textgray;
 }
 
+h3 {
+    code {
+        font-size: 2.5rem;
+    }
+}
+
 @media only screen and (max-width : 600px) {
     #index-banner .section {
         top: 0;
