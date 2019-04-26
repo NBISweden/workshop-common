@@ -1,0 +1,23 @@
+---
+transparentnav: false
+fixednav: true
+logosnav: true
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+  {% include topnav.html %}
+
+  <div class="container z-depth-2 content">
+    <div class="col s12 bread">
+      {% include overview.html %}
+      {{ content }}
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  </body>
+</html>

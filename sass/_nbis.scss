@@ -196,3 +196,28 @@ img.flip {
 .compact td {
     padding: 5px;
 }
+
+.panel-info {
+    border: 1px solid black;
+
+    .panel-heading {
+        background-color: $textgray;
+        color: white;
+        h3 {
+            font-size: 2rem;
+            margin-top: 0px;
+        }
+    }
+
+    .panel-body {
+        padding-left: 1em;
+        .row {
+            margin-bottom: 5px;
+        }
+        ul {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            margin-left: 2rem;
+        }
+    }
+}
