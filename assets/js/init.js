@@ -64,24 +64,15 @@
         e.li = li;
     }
 
+    sidebar = document.getElementById('toc-sidebar');
     // Scroll listener
-    /*
-    var selected = elems[0];
-    selected.li.classList.add('selected');
     window.addEventListener('scroll', function () {
-        var new_selected;
-        for (e of elems) {
-            t = e.element.getBoundingClientRect().top;
-            if (t < window.innerHeight/2) {
-                new_selected = e;
-            }
+        if (window.pageYOffset > 80) {
+            sidebar.classList.add('fix-scroll');
         }
-        if (new_selected != selected) {
-            selected.li.classList.remove('selected');
-            new_selected.li.classList.add('selected');
-            selected = new_selected;
+        else {
+            sidebar.classList.remove('fix-scroll');
         }
     });
-    */
 })();
 

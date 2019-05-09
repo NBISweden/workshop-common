@@ -31,15 +31,21 @@ nav {
     }
 }
 
+
 #toc-sidebar {
     @media screen and (min-width: 992px) {
-        position: fixed;
+        position: absolute;
         top: 85px;
         right: 23px;
         width: 22%;
     }
     @media screen and (max-width: 992px) {
         display: none;
+    }
+
+    &.fix-scroll {
+        position: fixed;
+        top: 7px;
     }
 
     padding: 3px;
