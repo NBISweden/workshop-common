@@ -53,7 +53,8 @@
 
         a = document.createElement('a');
         a.setAttribute('href', anchor);
-        a.innerText = levels.join('.') + ' ' + e.element.innerText;
+        //a.innerText = levels.join('.') + ' ' + e.element.innerText;
+        a.innerText = e.element.innerText;
 
         li = document.createElement('li');
         li.appendChild(a);
@@ -64,6 +65,7 @@
     }
 
     // Scroll listener
+    /*
     var selected = elems[0];
     selected.li.classList.add('selected');
     window.addEventListener('scroll', function () {
@@ -80,5 +82,6 @@
             selected = new_selected;
         }
     });
+    */
 })();
 
