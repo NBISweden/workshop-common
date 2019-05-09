@@ -31,6 +31,49 @@ nav {
     }
 }
 
+#toc-sidebar {
+    @media screen and (min-width: 992px) {
+        position: fixed;
+        top: 85px;
+        right: 23px;
+        width: 22%;
+    }
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+
+    padding: 3px;
+
+    a {
+        color: #666
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    ul {
+        li {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        margin-bottom: 0px;
+        .selected {
+            font-weight: bold;
+        }
+        .H1 {
+            margin-left: 0px;
+        }
+        .H2 {
+            margin-left: 10px;
+        }
+        .H3 {
+            margin-left: 20px;
+        }
+    }
+}
+
 .content {
     background-color: white;
     padding-bottom: 64px;
