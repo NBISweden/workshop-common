@@ -32,20 +32,32 @@ nav {
 }
 
 #toc-sidebar {
-    padding: 2px;
-    position: fixed;
-    left: 70%;
-    //right: 0px;
-    top: 200px;
-    width: 20%;
-    //border: 1px solid green;
-    float: right;
-    background-color: white;
-
-    .toc-header {
-        font-size: 1.2rem;
+    @media screen and (min-width: 992px) {
+        position: fixed;
+        top: 85px;
+        right: 23px;
+        width: 22%;
     }
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+
+    padding: 3px;
+
+    a {
+        color: #666
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
     ul {
+        li {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
         margin-bottom: 0px;
         .selected {
             font-weight: bold;
