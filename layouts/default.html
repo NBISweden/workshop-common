@@ -10,9 +10,19 @@ logosnav: true
   <body>
   {% include topnav.html %}
 
-  <div class="container z-depth-2 content">
-    <div class="col s12 bread">
-      {{ content }}
+  {% unless page.notoc %}
+  {% include toc.html %}
+  {% endunless %}
+  <div class="container">
+    <div class="row"></div>
+    <div class="row">
+      {% if page.notoc %}
+      <div class="col s12 z-depth-2 content">
+      {% else %}
+      <div class="col s12 l10 z-depth-2 content">
+      {% endif %}
+        {{ content }}
+      </div>
     </div>
   </div>
 
