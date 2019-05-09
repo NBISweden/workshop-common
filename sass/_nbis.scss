@@ -31,6 +31,37 @@ nav {
     }
 }
 
+#toc-sidebar {
+    padding: 2px;
+    position: fixed;
+    left: 70%;
+    //right: 0px;
+    top: 200px;
+    width: 20%;
+    //border: 1px solid green;
+    float: right;
+    background-color: white;
+
+    .toc-header {
+        font-size: 1.2rem;
+    }
+    ul {
+        margin-bottom: 0px;
+        .selected {
+            font-weight: bold;
+        }
+        .H1 {
+            margin-left: 0px;
+        }
+        .H2 {
+            margin-left: 10px;
+        }
+        .H3 {
+            margin-left: 20px;
+        }
+    }
+}
+
 .content {
     background-color: white;
     padding-bottom: 64px;
