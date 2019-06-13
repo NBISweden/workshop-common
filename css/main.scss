@@ -11,5 +11,6 @@ $light_textgray: #c6c6c6;
 $baseurl: "{{site.baseurl}}";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "nbis";
 @import "elixir";
 @import "syntax-highlighting";
