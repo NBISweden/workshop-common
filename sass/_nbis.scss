@@ -84,6 +84,15 @@ nav {
     background-color: white;
     padding-bottom: 64px;
     margin-bottom: 64px;
+    ul {
+        margin-left: 1.2rem;
+        li {
+            list-style-type: disc;
+        }
+    }
+    dl {
+        margin-left:10px;
+    }
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
